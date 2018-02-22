@@ -1,0 +1,21 @@
+{% set name = "csdms-permamodel" %}
+{% set version = "0.1.1" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+build:
+  entry_points: []
+  number: 0
+
+requirements:
+  run:
+  - csdms-permamodel-ku
+  - csdms-permamodel-frostnumber
+  - csdms-permamodel-kugeo
+  - csdms-permamodel-frostnumbergeo
+
+extra:
+  copy_test_source_files: true
+  final: true
