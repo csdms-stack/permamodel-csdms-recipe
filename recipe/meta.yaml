@@ -7,7 +7,7 @@ package:
 
 build:
   entry_points: []
-  number: 0
+  number: 1
 
 requirements:
   run:
@@ -15,6 +15,7 @@ requirements:
   - csdms-permamodel-frostnumber
   - csdms-permamodel-kugeo
   - csdms-permamodel-frostnumbergeo
+  - csdms-cruaktemp
 
 extra:
   copy_test_source_files: true
